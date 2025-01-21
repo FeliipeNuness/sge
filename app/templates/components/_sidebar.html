@@ -31,7 +31,7 @@
           {% endif %}
           {% if perms.categories.view_category %}
             <li>
-              <a href="#" class="nav-link px-0 align-middle">
+              <a href="{% url 'category_list' %}" class="nav-link px-0 align-middle">
                 <i class="bi bi-tags fs-4"></i>
                 <span class="ms-1">Categorias</span>
               </a>
