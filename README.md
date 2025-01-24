@@ -20,12 +20,16 @@ Com o ambiente virtual ativado, instale as dependências do projeto usando o com
 
 ```bash
 pip install -r requirements.txt
+```
 
+```bash
 python manage.py migrate
+```
 
+```bash
 python manage.py runserver
+```
 
-
-Acessar o sistema
+## Acessar o sistema
 Após isso, o sistema estará pronto para ser acessado em:
 http://localhost:8000
