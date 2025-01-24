@@ -1,29 +1,25 @@
-Sistema de Gestão de Estoque (SGE)
-Bem-vindo ao Sistema de Gestão de Estoque (SGE), um projeto desenvolvido em Django e Bootstrap 5 para facilitar o gerenciamento de estoque. Este README fornece informações essenciais sobre como configurar e executar o projeto em seu ambiente local.
+# Sistema de Gestão de Estoque (SGE)  
 
-Requisitos
-Certifique-se de que você tenha os seguintes requisitos instalados em seu sistema:
+Bem-vindo ao **Sistema de Gestão de Estoque (SGE)**, um projeto desenvolvido em **Django** e **Bootstrap 5** para facilitar o gerenciamento de estoque.  
 
-Python (versão recomendada: 3.7 ou superior)
-Django (instalado automaticamente ao seguir as instruções abaixo)
-Outras dependências listadas no arquivo requirements.txt
-Instalação das Dependências
-Com o ambiente virtual ativado, instale as dependências do projeto usando o comando:
+Este README fornece todas as informações necessárias para configurar e executar o projeto em seu ambiente local.  
 
-bash
-Copiar
+---
+
+## 📋 Requisitos  
+
+Certifique-se de que você tenha os seguintes requisitos instalados em seu sistema:  
+
+- **Python** (versão recomendada: 3.7 ou superior)  
+- **Django** (instalado automaticamente ao seguir as instruções abaixo)  
+- Outras dependências listadas no arquivo `requirements.txt`  
+
+---
+
+## 📂 Instalação das Dependências  
+
+1. Ative seu ambiente virtual.  
+2. Com o ambiente virtual ativado, instale as dependências do projeto executando:  
+
+```bash
 pip install -r requirements.txt
-Rodar o Projeto
-Após instalar as dependências, aplique as migrations no banco de dados com o comando:
-
-bash
-Copiar
-python manage.py migrate
-Agora o projeto já pode ser inicializado com o comando:
-
-bash
-Copiar
-python manage.py runserver
-Após isso, o sistema estará pronto para ser acessado em:
-http://localhost:8000
-
