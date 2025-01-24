@@ -23,3 +23,30 @@ Certifique-se de que você tenha os seguintes requisitos instalados em seu siste
 
 ```bash
 pip install -r requirements.txt
+
+
+⚙️ Rodar o Projeto
+Após instalar as dependências, siga os passos abaixo:
+
+1. Aplique as migrações ao banco de dados
+Execute o comando:
+
+bash
+Copiar
+Editar
+python manage.py migrate
+2. Inicialize o servidor de desenvolvimento
+Inicie o projeto com o comando:
+
+bash
+Copiar
+Editar
+python manage.py runserver
+🌐 Acessar o Sistema
+Após inicializar o servidor, o sistema estará disponível em:
+http://localhost:8000
+
+🛠️ Tecnologias Utilizadas
+Django
+Bootstrap 5
+Python 3.7+
