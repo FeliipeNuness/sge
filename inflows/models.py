@@ -15,5 +15,5 @@ class Inflow(models.Model):
         ordering = ['-created_at']
         
     def __str__(self):
-        return str(self.products)
+        return str(self.product)
     
