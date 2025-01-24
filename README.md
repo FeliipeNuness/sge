@@ -25,7 +25,7 @@ Certifique-se de que você tenha os seguintes requisitos instalados em seu siste
 pip install -r requirements.txt
 
 
-⚙️ Rodar o Projeto
+## ⚙️ Rodar o Projeto
 Após instalar as dependências, siga os passos abaixo:
 
 1. Aplique as migrações ao banco de dados
