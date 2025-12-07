@@ -80,4 +80,4 @@ def get_graphic_product_category_metric():
 def get_graphic_product_brand_metric():
     brands = Brand.objects.all()
     return {brand.name: Products.objects.filter(brand=brand).count() for brand in brands}
-    
+     
